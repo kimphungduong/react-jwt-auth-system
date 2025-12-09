@@ -10,7 +10,7 @@ async function bootstrap() {
     origin: [
       'http://localhost:5173',
       'http://localhost:5174',
-      'https://react-jwt-auth-liart.vercel.app',
+      'https://react-jwt-auth-1.vercel.app',
       process.env.FRONTEND_URL
     ].filter(Boolean) as string[],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
